@@ -1,0 +1,43 @@
+---
+title: "Week 4 Data Development Project"
+author: "Nikhilesh Jha"
+date: "3/8/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Predicting the price of houses
+
+This app takes the height of a person as input and predicts the average weight for that height.
+
+The data used in this is from the Housing Competition a Kaggle.com
+
+
+## Instructions
+The user has to select the height using a slider and the weight is plotted on the right. The user has to click submit before their input is registered.
+
+
+## Snapshot of the app
+
+```{r, out.width = "800px"}
+knitr::include_graphics("~/Desktop/Screenshot.png")
+```
+You choose the Quality using the sliding panel
+
+## Slide with R Output
+
+The application link is as follows:
+https://businessanalyst.shinyapps.io/SalePrice_Prediction/
+
+The Github link is as follows:
+https://github.com/nikhileshjha/Data-Development-Project
+
+
+
+## Summary
+
+The project is created as a part of Data Science Specialization by John Hopkins University on Coursera course.
+The project is for Developing Data Package using R.
